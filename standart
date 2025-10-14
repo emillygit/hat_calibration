@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # הגדרות לוח השחמט
-chessboard_size = (9, 6)  # מספר פינות (לא ריבועים!)
+chessboard_size = (9, 6)  # מספר פינות 
 square_size = 1.0
 
 # מערכים לאובייקטים ונקודות
@@ -14,8 +14,8 @@ objpoints = []
 imgpoints = []
 
 # טוען את הסרטון
-cap = cv2.VideoCapture('כיולמצלמה.mov')  # החליפי בשם הקובץ שלך
-frame_interval = 10  # כל כמה פריימים לבדוק
+cap = cv2.VideoCapture('כיולמצלמה.mov') 
+frame_interval = 10 
 
 frame_idx = 0
 while cap.isOpened():
