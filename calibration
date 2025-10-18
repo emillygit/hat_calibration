@@ -14,7 +14,7 @@ objpoints = []
 imgpoints = []
 
 # טוען את הסרטון
-cap = cv2.VideoCapture('כיול.מצלמה.mov') 
+cap = cv2.VideoCapture('כיולמצלמה.mov') 
 frame_interval = 10 
 
 frame_idx = 0
